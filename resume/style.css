@@ -1,5 +1,17 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans', arial, sans-serif;
   font-size: lem;
   color: #444;
+  font-weight:400;
+}
+
+H1 {
+  font-size:3em;
+  color: #33485e;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+H2 {
+  font-size:
 }
