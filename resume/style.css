@@ -19,13 +19,12 @@ p1 {
 }
 
 h1 {
-  width: 1px;
-  border: 25 px color:#33485e;
-  padding: 10 px;
-  margin: 0;
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
 }
 
-.main headings {
+h2 {
   font-size:1.5em; color: white;
   text-transform: uppercase;
   background-color: #33485e;
