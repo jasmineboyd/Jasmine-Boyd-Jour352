@@ -12,14 +12,13 @@ H1 {
   text-align:center;
 }
 
-
 p1 {
   text-transform:uppercase;
   font-size: 1.5em;
   color: #33485e;
 }
 
-.name {
+h1 {
   width: 1px;
   border: 25 px color:#33485e;
   padding: 10 px;
