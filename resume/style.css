@@ -1,3 +1,5 @@
+<!--styles for my resume-->
+
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -5,19 +7,21 @@ body {
   font-weight:400;
 }
 
+<!--banner name at top-->
 H1 {
-  font-size:3em;
+  font-size: 3em;
   color: #33485e;
-  text-transform:uppercase;
-  text-align:center;
+  text-transform: uppercase; center;
 }
 
+<!--description-->
 p1 {
   text-transform:uppercase;
   font-size: 1.5em;
   color: #33485e;
 }
 
+<!--section titles-->
 H2 {
   font-size:1.5em; color: white;
   text-transform: uppercase;
@@ -25,23 +29,26 @@ H2 {
   font-weight: 400;
 }
 
+<!--job titles-->
 H3 {
   font-size: 1.5em;
   font-weight:600;
 }
 
+<!--location-->
 H4 {
   font-size: 1.5em;
   font-weight: 400;
 }
 
-
+<!--dates-->
 H5 {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
+<!--listed items-->
 UL {
   font-size: 1em;
 }
