@@ -1,9 +1,13 @@
+<!--styles for my resume-->
+
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: lem;
   color: #444;
   font-weight:400;
 }
+
+<!--banner name at top--->
 
 H1 {
   font-size: 3em;
@@ -18,7 +22,7 @@ p1 {
   color: #33485e;
 }
 
-H2 {
+h2 {
   font-size:1.5em; color: white;
   text-transform: uppercase;
   background-color: #33485e;
