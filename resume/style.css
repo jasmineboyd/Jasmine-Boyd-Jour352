@@ -1,19 +1,18 @@
-<!--styles for my resume--->
-
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: lem;
   color: #444;
   font-weight:400;
 }
- <!--banner name at the top--->
+
 H1 {
   font-size:3em;
   color: #33485e;
   text-transform:uppercase;
   text-align:center;
 }
-<!--title-->
+
+
 p1 {
   text-transform:uppercase;
   font-size: 1.5em;
@@ -27,33 +26,30 @@ p1 {
   margin: 0;
 }
 
-<!--main headings-->
 .main headings {
   font-size:1.5em; color: white;
   text-transform: uppercase;
   background-color: #33485e;
   font-weight: 400;
 }
- <!--positions--->
+
 H3 {
   font-size: 1.5em;
   font-weight:600;
 }
 
-<!--location--->
 H4 {
   font-size: 1.5em;
   font-weight: 400;
 }
 
-<!--dates-->
+
 H5 {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
-<!--item lists--->
 UL {
   font-size: 1em;
 }
