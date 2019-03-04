@@ -2,13 +2,19 @@ body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444;
-  font-weight:400;
+  font-weight: 400;
 }
 
-h1 {
+#name  {
   font-size: 3em;
   color: #33485e;
-  text-transform: uppercase, center;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px; color: #33485e;
+  padding: 25px;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 p1 {
