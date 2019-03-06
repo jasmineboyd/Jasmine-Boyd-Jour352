@@ -2,50 +2,96 @@
 
 body {
   font-family: 'Open Sans', arial, sans-serif;
-  font-size: lem;
+  font-size: 1em;
   color: #444;
-  font-weight:400;
+  font-weight: 400;
 }
 
-<!--banner name at top--->
-
-H1 {
+#name  {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  padding: 25px;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 p1 {
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
 }
 
-h2 {
+.sectionheader {
   font-size:1.5em; color: white;
   text-transform: uppercase;
   background-color: #33485e;
   font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin:0 auto;
+  width: 70%;
+  min-width: 300px;
 }
 
-H3 {
+.jobtitle {
   font-size: 1.5em;
   font-weight:600;
 }
 
-H4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.25em;
   font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin:0;
 }
 
-
-H5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin:0 auto;
 }
 
-UL {
-  font-size: 1em;
+.menu {
+  margin:0 auto;
+  padding: 0px;
+  text-align: center;
+  display: inline;
 }
+
+#degrees {
+  margin-top: 5px;
+  margin:0;
+}
+
+#do {
+  margin-top: 5px;
+  margin:0;
+}
+
+#title {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 50px;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
+  }
