@@ -20,39 +20,13 @@
  </head>
 
   <body>
-    <nav class="navbar navbar-light" style="background-color: #805453;">
+    <nav class="navbar navbar-light" style="background-color: #f8eded;">
   <!-- Navbar content -->
-</nav>
- <a class="navbar-brand" href="#">About</a>
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
- </button>
-
-
-
- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-   <ul class="navbar-nav mr-auto">
-     <li class="nav-item active">
-       <a class="nav-link" href="#">Experience<span class="sr-only">(current)</span></a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Education</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Skills</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Contact</a>
-     </li>
-     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-       </div>
-     </li>
-
-   </ul>
-
- </div>
+  <nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Profile</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Experience</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Skills</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
 </nav>
 <!---end nav bar--->
 
@@ -66,31 +40,60 @@
 </head>
 <body>
 
-<div class="container" class="img-responsive" src="banner.jpg">
-  <p></p>
-  <img src="resume/banner.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail">
-  <img src="resume/boyd.jpg" class="img-fluid" alt="Responsive image" class="img-thumbnail" width="300px" height="300px">
+<div class="container" class="img-responsive" src="img/banner.jpg">
+  <img src="img/banner.jpg" class="img-fluid" class="img-thumbnail" alt="Responsive image">
+</div>
+
+<div class="container"></div>
+  <div class="row"></div>
+    <div class="col-md-8"></div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/boyd.jpg" class="img-responsive img-thumbnail" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/photo1.jpg" class="img-responsive img-thumbnail" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/photo2.jpg" class="img-responsive img-thumbnail" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 <!--begin jumbotron--->
-  <div class="jumbotron">
-    <h1 class="display-4">About Me</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <div class="jumbotron" style="background-color: #f8eded;">
+    <h2 style="color: #805453;">About Me</h2>
+    <p class="lead">I am an aspiring broadcast journalist and student writer searching for internship opportunities to expand my news reporting and video editing skills. I would like to obtain a position in the field of journalism to become a news reporter and write feature articles about community and social issues.</p>
       <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Resume</a>
+    <p>I am interested in long-form storytelling such as documentary work. I also aspire to focus on solution-oriented journalism within my news reporting.</p>
+
   </div>
 <!--end jumbotron--->
 
-<!--begin jumbotron--->
-  <div class="jumbotron">
-    <h1 class="display-4">Jasmine Boyd</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+<div class="media">
+  <img src="..." class="mr-3" alt="...">
+  <div class="media-body">
+    <h2 class="mt-0">Project Leader</h2>
+    #MoJo Mentor - Joint program with the Philip Merrill College of Journalism and William Wirt Middle School organized journalism-related activities and mentored middle school journalism students conducted interviews, photographed students and designed pages for magazine project.
+
   </div>
-<!--end jumbotron--->
+</div>
+
 
 <div class="container">
       <div class="row">
@@ -112,6 +115,7 @@
               </div>
       </div>
 </div>
+
 
 
  <i class="fab fa-twitter"></i>
