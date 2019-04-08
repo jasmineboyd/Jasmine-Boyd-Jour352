@@ -33,6 +33,15 @@
   font-family: helvetica, arial, sans-serif;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+
 p {
   font-size: 1em;
   font-family: helvetica, arial, sans-serif;
