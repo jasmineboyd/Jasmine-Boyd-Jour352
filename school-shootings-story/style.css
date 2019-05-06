@@ -13,6 +13,11 @@ img {
   width: 20px;
   padding-right: 5px;
 }
+
+.word {
+  color: #135CA6;
+}
+
 .headline {
   font-size: 3em;
   font-family: 'montserrat';
@@ -23,7 +28,7 @@ img {
 
 .logo {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #ffffff;
   font-size: 1.25em;
 }
 
