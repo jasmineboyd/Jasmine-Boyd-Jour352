@@ -1,0 +1,56 @@
+<!--styles for midterm part2-->
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+
+h2 {
+  margin:0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 23px;
+}
+
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: helvetica; arial; sans-serif;
+  color: red;
+}
+
+p {
+  margin: 0 auto;
+  text-align:center;
+}
+
+
+body {
+  font-family: helvetica; arial; sans-serif;
+  font-size: 12px;
+  background-color: #CEF3F4;
+}
+
+.img-fluid {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.byline{
+  font-size: 1.5em;
+}
+
+blockquote {
+  font:16px/24px normal helvetica, san-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #DB938D;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
