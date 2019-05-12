@@ -119,6 +119,8 @@ p {
 
 .hero-image {
   width: 100%;
+  height: 500px;
+  width: 500px;
   max-width: 900px;
   align-content: center;
 }
